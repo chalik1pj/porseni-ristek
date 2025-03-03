@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porseni RISTEK</title>
+    <link rel="icon" type="image/jpg" href="img/porseni.ico" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <header>
+      <nav class="navbar">
+        <a href="#" class="navbar-logo">
+          <img
+            src="img/logo-navbar/stikom.png"
+            alt="STIKOM-Tunas-Bangsa"
+            class="STIKOM-Tunas-Bangsa"
+          />
+          <img
+            src="img/logo-navbar/kampus-merdeka.png"
+            alt="Kampus-Merdeka"
+            class="Kampus-Merdeka"
+          />
+        </a>
+
+        <div class="navbar-nav">
+          <a href="#home">Home</a>
+          <a href="#about">Timeline</a>
+          <a href="#sports">Cabang</a>
+          <a href="#contact">Kontak</a>
+        </div>
+        
+        <div class="navbar-extra">
+          <a href="#" id="search-button"><i data-feather="search"></i></a>
+          <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+
+        <!-- Search Form start -->
+        <div class="search-form">
+          <input type="search" id="search-box" placeholder="Cari perlombaan yang anda inginkan..." />
+          <label for="search-box"><i data-feather="search"></i></label>
+        </div>
+        <!-- Search Form end -->
+      </nav>
+    </header>
+    <!-- Navbar end -->
+
+    <main>
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <div class="content">
+        <h1>Porseni<br /><span>RISTEK 2025</span></h1>
+        <p>"Mengasah Kreativitas, Mungukir Prestasi di Era Digital"</p>
+        <br></br>
+        <a href="#" class="cta">Daftar Sekarang</a>
+      </div>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- About Start -->
+    <section id="about" class="about">
+      <h2><span>Time</span>line</h2>
+
+      <div class="row">
+        <div class="content">
+          <div class="timeline">
+            <div>
+              <strong>Pendaftaran</strong>
+              <span>09 Januari - 15 Januari</span>
+            </div>
+            <div>
+              <strong>Technical Meeting</strong>
+              <span>17 Januari</span>
+            </div>
+            <div>
+              <strong>Pertandingan</strong>
+              <span>20 Januari - 01 Februari</span>
+            </div>
+            <div>
+              <strong>Pembagian Hadiah</strong>
+              <span>05 Februari</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="note">
+          <p>
+            Note: Jadwal bisa saja berubah dari yang tertera di atas
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About End -->
+
+    <!-- List Start -->
+    <section class="sports" id="sports">
+      <h2><span>Cabang</span> Perlombaan</h2>
+      <p>
+        Berbagai macam perlombaan yang bisa diikutin, kamu juga bisa mengikutin lomba lebih dari satu cabang lho!!! Buruan daftarkan diri kamu segera
+      </p>
+
+      <div class="row">
+        <div class="sport-card">
+          <div class="sport-icons">
+            <a href="#" class="item-detail-button" data-modal="futsal"><i data-feather="eye"></i></a>
+          </div>
+          <div class="sport-image">
+            <img src="img/sports/futsal.jpg" alt="futsal" />
+          </div>
+          <div class="sport-content">
+            <h3>Futsal</h3>
+            <div class="sport-price">IDR 100K <span>(Slot 30 Tim)</span></div>
+          </div>
+        </div>
+        <div class="sport-card">
+          <div class="sport-icons">
+            <a href="#" class="item-detail-button" data-modal="bg-putra"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="sport-image">
+            <img src="img/sports/bg-putra.jpg" alt="bg-putra" />
+          </div>
+          <div class="sport-content">
+            <h3>Badminton Ganda Putra</h3>
+            <div class="sport-price">IDR 60K <span>(Slot 25 Tim)</span></div>
+          </div>
+        </div>
+        <div class="sport-card">
+          <div class="sport-icons">
+            <a href="#" class="item-detail-button" data-modal="bg-putri"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="sport-image">
+            <img src="img/sports/bg-putri.jpg" alt="bg-putri" />
+          </div>
+          <div class="sport-content">
+            <h3>Badminton Ganda Putri</h3>
+            <div class="sport-price">IDR 60K <span>(Slot 15 Tim)</span></div>
+          </div>
+        </div>
+        <div class="sport-card">
+          <div class="sport-icons">
+            <a href="#" class="item-detail-button" data-modal="bs-putra"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="sport-image">
+            <img src="img/sports/bs-putra.jpg" alt="bs-putra" />
+          </div>
+          <div class="sport-content">
+            <h3>Badminton Single Putra</h3>
+            <div class="sport-price">IDR 40K <span>(Slot 20 Tim)</span></div>
+          </div>
+        </div>
+        <div class="sport-card">
+          <div class="sport-icons">
+            <a href="#" class="item-detail-button" data-modal="bs-putri"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="sport-image">
+            <img src="img/sports/bs-putri.jpg" alt="bs-putri" />
+          </div>
+          <div class="sport-content">
+            <h3>Badminton Single Putri</h3>
+            <div class="sport-price">IDR 40K <span>(Slot 15 Tim)</span></div>
+          </div>
+        </div>
+        <div class="sport-card">
+          <div class="sport-icons">
+            <a href="#" class="item-detail-button" data-modal="tm"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="sport-image">
+            <img src="img/sports/tm.jpg" alt="tm" />
+          </div>
+          <div class="sport-content">
+            <h3>Tenis Meja</h3>
+            <div class="sport-price">IDR 60K <span>(Slot 15 Tim)</span></div>
+          </div>
+        </div>
+        <div class="sport-card">
+          <div class="sport-icons">
+            <a href="#" class="item-detail-button" data-modal="mlbb"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="sport-image">
+            <img src="img/sports/mlbb.jpg" alt="mlbb" />
+          </div>
+          <div class="sport-content">
+            <h3>E-Spost MOBILE LEGENDS</h3>
+            <div class="sport-price">IDR 100K <span>(Slot 30 Tim)</span></div>
+          </div>
+        </div>
+        <div class="sport-card">
+          <div class="sport-icons">
+            <a href="#" class="item-detail-button" data-modal="vs"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="sport-image">
+            <img src="img/sports/vs.jpg" alt="vs" />
+          </div>
+          <div class="sport-content">
+            <h3>Vocal Solo</h3>
+            <div class="sport-price">IDR 60K <span>(Slot 20 Tim)</span></div>
+          </div>
+        </div>
+        <div class="sport-card">
+          <div class="sport-icons">
+            <a href="#" class="item-detail-button" data-modal="ketik-cepat"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="sport-image">
+            <img src="img/sports/ketik-cepat.jpg" alt="ketik-cepat" />
+          </div>
+          <div class="sport-content">
+            <h3>Blind System Typewriter</h3>
+            <div class="sport-price">IDR 30K <span>(Slot 30 Tim)</span></div>
+          </div>
+        </div>
+        <div class="sport-card">
+          <div class="sport-icons">
+            <a href="#" class="item-detail-button" data-modal="coding"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="sport-image">
+            <img src="img/sports/coding.jpg" alt="coding" />
+          </div>
+          <div class="sport-content">
+            <h3>Pemrograman</h3>
+            <div class="sport-price">IDR 30K <span>(Slot 30 Tim)</span></div>
+          </div>
+        </div>
+        <div class="sport-card">
+          <div class="sport-icons">
+            <a href="#" class="item-detail-button" data-modal="poster"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="sport-image">
+            <img src="img/sports/poster.jpg" alt="poster" />
+          </div>
+          <div class="sport-content">
+            <h3>Desain Poster</h3>
+            <div class="sport-price">IDR 30K <span>(Slot 20 Tim)</span></div>
+          </div>
+        </div>
+        <div class="sport-card">
+          <div class="sport-icons">
+            <a href="#" class="item-detail-button" data-modal="pidato"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="sport-image">
+            <img src="img/sports/pidato.jpg" alt="pidato" />
+          </div>
+          <div class="sport-content">
+            <h3>Pidato Bahasa Inggris</h3>
+            <div class="sport-price">IDR 30K <span>(Slot 20 Tim)</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- List End -->
+
+    <!-- Contact Section start -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>
+        Jika ada kendala terkait perlombaan, anda bisa menghubungi kami dengan mengirim email dibawah
+      </p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63751.68207243139!2d99.01963259443806!3d2.9641935032309705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3031845c5ac9d49d%3A0xec50414d3469acee!2sPematang%20Siantar%2C%20Kota%20Pematang%20Siantar%2C%20Sumatera%20Utara!5e0!3m2!1sid!2sid!4v1737291865275!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="Email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="No HP" />
+          </div>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section end -->
+
+    <!-- Aside Start -->
+    <aside>
+      <div class="socials">
+        <ul>
+          <li>
+            <a
+            href="https://www.instagram.com/syafwan_pj?igsh=MXhrbDBrbDB2ejdhbA=="
+            >
+            <i data-feather="instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i data-feather="twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i data-feather="facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#home">
+              <img src="img/logo-navbar/stikom.png" alt="stikom">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <!-- Aside End -->
+
+    <!-- Modal Box Item Detail start -->
+    <div class="modal" id="futsal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/sports/futsal.jpg" alt="Futsal" />
+          <div class="sport-content">
+            <h3>Futsal</h3>
+            <article>
+              <span>Peraturan Singkat :</span>
+              <br />
+              Memiliki pemain dengan jumlah 8 pemain, diantaranya 5 pemain inti dan 3 pemain cadangan. Waktu pertandingan yaitu selama 2x10 menit dan waktu tambahan jika seri yaitu hanya 3 menit.
+            </article>
+            <div class="sport-price">IDR 100K <span>(Slot 30 Tim)</span></div>
+            <a href="#">Daftar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="bg-putra">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/sports/bg-putra.jpg" alt="bg-putra" />
+          <div class="sport-content">
+            <h3>Badminton Ganda Putra</h3>
+            <article>
+              <span>Peraturan Singkat :</span><br/>
+              Permainan menggunakan sistem "rally point" dengan setiap game dimainkan hingga 21 poin. Jika skor mencapai 20-20, permainan dilanjutkan hingga salah satu pemain unggul dua poin. Pemain yang mencetak skor 2 terlebih dahulu dia lanjut kebabak selanjutnya.
+            </article>
+            <div class="sport-price">IDR 60K <span>(Slot 25 Tim)</span></div>
+            <a href="#">Daftar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="bg-putri">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/sports/bg-putri.jpg" alt="bg-putri" />
+          <div class="sport-content">
+            <h3>Badminton Ganda Putri</h3>
+            <article>
+              <span>Peraturan Singkat :</span><br/>
+              Permainan menggunakan sistem "rally point" dengan setiap game dimainkan hingga 21 poin. Jika skor mencapai 20-20, permainan dilanjutkan hingga salah satu pemain unggul dua poin. Pemain yang mencetak skor 2 terlebih dahulu dia lanjut kebabak selanjutnya.
+            </article>
+            <div class="sport-price">IDR 60K <span>(Slot 15 Tim)</span></div>
+            <a href="#">Daftar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="bs-putra">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/sports/bs-putra.jpg" alt="bs-putra" />
+          <div class="sport-content">
+            <h3>Badminton Single Putra</h3>
+            <article>
+              <span>Peraturan Singkat :</span><br/>
+              Permainan menggunakan sistem "rally point" dengan setiap game dimainkan hingga 21 poin. Jika skor mencapai 20-20, permainan dilanjutkan hingga salah satu pemain unggul dua poin. Pemain yang mencetak skor 2 terlebih dahulu dia lanjut kebabak selanjutnya.
+            </article>
+            <div class="sport-price">IDR 40K <span>(Slot 20 Tim)</span></div>
+            <a href="#">Daftar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="bs-putri">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/sports/bs-putri.jpg" alt="bs-putri" />
+          <div class="sport-content">
+            <h3>Badminton Single Putri</h3>
+            <article>
+              <span>Peraturan Singkat :</span><br/>
+              Permainan menggunakan sistem "rally point" dengan setiap game dimainkan hingga 21 poin. Jika skor mencapai 20-20, permainan dilanjutkan hingga salah satu pemain unggul dua poin. Pemain yang mencetak skor 2 terlebih dahulu dia lanjut kebabak selanjutnya.
+            </article>
+            <div class="sport-price">IDR 60K <span>(Slot 15 Tim)</span></div>
+            <a href="#">Daftar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="tm">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/sports/tm.jpg" alt="tm" />
+          <div class="sport-content">
+            <h3>Tenis Meja</h3>
+            <article>
+              <span>Peraturan Singkat :</span><br/>
+              Setiap permainan dimainkan hingga salah satu pemain mencapai 11 poin. Jika skor mencapai 10-10, permainan dilanjutkan hingga salah satu pemain unggul dengan selisih 2 poin.
+            </article>
+            <div class="sport-price">IDR 60K <span>(Slot 15 Tim)</span></div>
+            <a href="#">Daftar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="mlbb">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/sports/mlbb.jpg" alt="mlbb" />
+          <div class="sport-content">
+            <h3>E-Sports MOBILE LEGENDS</h3>
+            <article>
+              <span>Peraturan Singkat :</span><br/>
+              Pertarungan strategi 5v5 dengan tujuan menghancurkan base lawan dengan cepat.
+            </article>
+            <div class="sport-price">IDR 100K <span>(Slot 30 Tim)</span></div>
+            <a href="#">Daftar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="vs">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/sports/vs.jpg" alt="vs" />
+          <div class="sport-content">
+            <h3>Vokal Solo</h3>
+            <article>
+              <span>Peraturan Singkat :</span><br/>
+              Menyanyikan dengan judul dan genre lagu bebas dengan durasi maksimal 5 menit.
+            </article>
+            <div class="sport-price">IDR 60K <span>(Slot 20 Tim)</span></div>
+            <a href="#">Daftar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="ketik-cepat">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/sports/ketik-cepat.jpg" alt="ketik-cepat" />
+          <div class="sport-content">
+            <h3>Blind System Typewriter</h3>
+            <article>
+              <span>Peraturan Singkat :</span><br/>
+              Mengetik cepat dengan alat yang sudah disiapkan oleh para panitia.
+            </article>
+            <div class="sport-price">IDR 30K <span>(Slot 30 Tim)</span></div>
+            <a href="#">Daftar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="coding">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/sports/coding.jpg" alt="coding" />
+          <div class="sport-content">
+            <h3>Pemrograman</h3>
+            <article>
+              <span>Peraturan Singkat :</span><br/>
+              Membangun sebuah web dengan menggunakan bahasa pemrograman sesuai keinginan anda.
+            </article>
+            <div class="sport-price">IDR 30K <span>(Slot 30 Tim)</span></div>
+            <a href="#">Daftar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="poster">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/sports/poster.jpg" alt="poster" />
+          <div class="sport-content">
+            <h3>Desain Poster</h3>
+            <article>
+              <span>Peraturan Singkat :</span><br/>
+              Mendesain sebuah karya dengan elemen yang disiapkan oleh panitia dan dapat didesain dengan software kesukaan anda.
+            </article>
+            <div class="sport-price">IDR 30K <span>(Slot 20 Tim)</span></div>
+            <a href="#">Daftar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="pidato">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/sports/pidato.jpg" alt="pidato" />
+          <div class="sport-content">
+            <h3>Pidato Bahasa Inggris</h3>
+            <article>
+              <span>Peraturan Singkat :</span><br/>
+              Berpidato menggunakan bahasa inggris, boleh menggunakan teks dalam berpidato.
+            </article>
+            <div class="sport-price">IDR 30K <span>(Slot 20 Tim)</span></div>
+            <a href="#">Daftar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Item Detail end -->
+
+    </main>
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Timeline</a>
+        <a href="#sports">Cabang</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="#">SyafwanChalik</a>. | &copy; 2025.</p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+  
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
