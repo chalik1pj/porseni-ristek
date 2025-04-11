@@ -126,6 +126,7 @@ body {
   display: flex;
   align-items: center;
   background-image: url("../img/header-dash-bg.jpg");
+  filter: contrast(55%);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
